@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{margin: 0;padding:0;box-sizing: border-box}
+        html,body{width: 100%;height: 100%}
+        .search-container{width: 700px;margin: 30px auto;position: relative;}
+        .search-bar{width: 100%;font-size: 0}
+        .search-bar input{width: 90%;height: 40px;line-height: 40px;text-indent: 5px;font-size: 20px;border:1px solid black;outline: none;}
+        .search-bar span{display: inline-block;font-size: 20px;width: 10%;text-align: center;line-height:40px;height: 40px;background: red;color:white;cursor: pointer;letter-spacing: 5px}
+        .search-sub{position: absolute;left: 0;top:40px;width: 100%;min-height: 40px;}
+        .search-sub ul{width: 100%}
+        .search-sub ul li{width:90%;height: 40px;line-height: 40px;text-indent: 5px;border: 1px solid black;border-top: none;font-size: 20px;color: blue;list-style: none}
+        .search-sub ul li:hover{background: blue;color: white}
+    </style>
+    <script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <div class="search-container"  ng-controller="searchCtrl">
+        <div class="search-bar">
+            <input type="search" placeholder="Search Here" ng-model="search" ng-keyup="find()">
+            <span class="search-btn">搜索</span>
+        </div>
+       <div class="search-sub">
+           <ul>
+               <li ng-repeat="house in houseData">
+                    {{house}}
+               </li>
+           </ul>
+       </div>
+
+    </div>
+</body>
+</html>
