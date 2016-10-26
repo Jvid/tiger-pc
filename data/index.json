@@ -1,5 +1,82 @@
 [
-  "first",
-  "second",
-  "third"
+{
+"_id": {
+"$id": "580717e14860e40bb24da36a"
+},
+"address": "1/1-20/1 Briar Way",
+"city": "Auckland",
+"suburb": "Waitakere"
+},
+{
+"_id": {
+"$id": "580717424860e40bb24c1cab"
+},
+"address": "1/1-20/1 Guyton Street",
+"city": "Wanganui District",
+"suburb": "Whanganui"
+},
+{
+"_id": {
+"$id": "580719b34860e40bb252b9f7"
+},
+"address": "1/110-20/110 Alexandra Street",
+"city": "Hamilton City",
+"suburb": "Hamilton Central"
+},
+{
+"_id": {
+"$id": "580711fd4860e40bb23cc54e"
+},
+"address": "1/1120 Whakaue Street",
+"city": "Rotorua District",
+"suburb": "Rotorua"
+},
+{
+"_id": {
+"$id": "580714874860e40bb244b36f"
+},
+"address": "1/118-20/118 Russell Terrace",
+"city": "Wellington City",
+"suburb": "Newtown-Berhampore"
+},
+{
+"_id": {
+"$id": "58071c794860e40bb2597813"
+},
+"address": "1/120 Bayswater Avenue",
+"city": "Auckland",
+"suburb": "Bayswater"
+},
+{
+"_id": {
+"$id": "5807178d4860e40bb24cd8ef"
+},
+"address": "1/120 Bowhill Road",
+"city": "Christchurch City",
+"suburb": "New Brighton"
+},
+{
+"_id": {
+"$id": "58071c5e4860e40bb2592292"
+},
+"address": "1/120 Bradbury Road",
+"city": "Auckland",
+"suburb": "Howick"
+},
+{
+"_id": {
+"$id": "58071a744860e40bb2549979"
+},
+"address": "1/120 Brian Crescent",
+"city": "Auckland",
+"suburb": "Stanmore Bay"
+},
+{
+"_id": {
+"$id": "58071ae14860e40bb25571d7"
+},
+"address": "1/120 Bridge Street",
+"city": "Rangitikei District",
+"suburb": "Bulls"
+}
 ]
